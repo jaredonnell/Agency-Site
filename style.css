@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 footer {
@@ -45,15 +45,26 @@ footer {
   font-size: 14px;;
 }
 
-@media(max-width:831px) and (min-width:717px) {
+@media(max-width:831px) and (min-width:717px){
+
+}
+
+@media(max-width:360px) and (min-width:280px) {
   h1 {
-    font-size: 3em;
-    text-align:center;
+    width:280px;
+    font-size: 1.75em;
+    margin-top:40px;
+    margin-bottom:30px;
+    margin-left: 15px;
   }
 
   .logo {
     display:block;
-    height:20px;
+    height:15px;
+    position:relative;
+    top:10px;
+    left:5px;
+    margin-top:5px;
   }
 
   .card-title {
@@ -62,6 +73,112 @@ footer {
 
   .tile-image {
     margin-bottom:15px;
+    margin-right:55px;
+  }
+
+  .card {
+    display:block;
+    clear:both;
+  }
+
+  .right {
+    width:240px;
+    position:relative;
+    left:15px;
+    right:20px;
+    top:25px;
+  }
+
+  .left {
+    width:240px;
+    position:relative;
+    left:15px;
+    right:20px;
+    top:15px;
+  }
+
+  footer {
+    margin-top:50px;
+    margin-right:0px;
+    font-size: 12px;
+    position:relative;
+    left:60px;
+    margin-right:20px;
+  }
+
+  body {
+    margin-left:0px;
+    margin-top:0px;
+  }
+
+  .tile-image {
+    width:270px;
+    height:150px
   }
 }
 
+@media (max-width:684px) and (min-width:361px) {
+  h1 {
+    width:361px;
+    font-size: 2em;
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-left: 15px;
+  }
+
+  .logo {
+    display:block;
+    height:20px;
+    position:relative;
+    top:10px;
+    left:5px;
+  }
+
+  .card-title {
+    margin:0px;
+  }
+
+  .tile-image {
+    margin-bottom:15px;
+    margin-right:55px;
+  }
+
+  .card {
+    display:block;
+    clear:both;
+  }
+
+  .right {
+    width:350px;
+    position:relative;
+    left:15px;
+    right:20px;
+    top:25px;
+  }
+
+  .left {
+    width:350px;
+    position:relative;
+    left:15px;
+    right:20px;
+    top:15px;
+  }
+
+  footer {
+    margin-top:50px;
+    margin-right:20px;
+    font-size: 12px;
+    position:relative;
+    left:60px;
+  }
+
+  body {
+    margin-left:0px;
+    margin-top:0px;
+  }
+
+  .tile-image {
+    width:330px;
+    height:200px
+  }
+}
